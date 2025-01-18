@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Login{
+   
+   
+   display: flex;
+   justify-content: center;
+   background-color: #d5e1e7;
+}
+.page{
+    display: flex;
+   justify-content: center;
+}
+
+.Login .log-page{
+    height:642px ;
+    width: 400px;
+
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.Login .log-page img{
+    height: 48px;
+    width:224px ;
+    margin-top: 20px;
+}
+
+.Login .log-page .inner-page{
+    /* height:300px ;
+    width: 360px; */
+    padding: 50px 0px;
+   
+    display: flex;
+   
+    
+    justify-content: center;
+    gap: 30px;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cont{
+  margin: 0px;
+}
+.content h1{
+    padding: 4px 90px;
+    font-size: 40px;
+    color: #ff0000;
+}
+.content p{
+    padding: 20px 20px;
+    
+}
+.content h2{
+    padding: 20px 80px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+.log-in{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */ 
+}
+
+.log-in .log{
+    
+   padding: 10px ;
+    background-color: #00c2ff;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #f1fAff;
+    border: none;
+}
+.log-in .log:hover{
+    cursor: pointer;
+    background-color: #51c6ea;
+}
